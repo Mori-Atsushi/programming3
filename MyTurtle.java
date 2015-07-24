@@ -5,4 +5,12 @@ public class MyTurtle extends HTurtle {
 			up(); rt(90); fd(w + s); lt(90); down();
 		}
 	}
+
+	public void ppolygon(int n, int m, int s) {
+		for(int i = 0; i < n; i++) {
+			polygon(m, s);
+			fd(s);
+			lt(360 / n);
+		}
+	}
 }
