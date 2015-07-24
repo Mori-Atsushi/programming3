@@ -13,4 +13,9 @@ public class HTurtle extends Turtle {
 		polygon(3, s);
 		lt(30); bk(s);
 	}
+
+	public void house(int x, int y, int s) {
+		up(); moveTo(x, y, 0); down();
+		house(s);
+	}
 }
