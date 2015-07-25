@@ -1,4 +1,8 @@
-public class MyTurtle extends HTurtle {
+public class MyTurtle extends HTurtle{
+	public MyTurtle(int x, int y, int angle) {
+		super(x, y, angle);
+	}
+
 	public int houses(int n, int s, int w) {
 		for(int i = 0; i < n; i++) {
 			house(s);
