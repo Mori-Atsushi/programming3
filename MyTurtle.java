@@ -1,4 +1,8 @@
 public class MyTurtle extends HTurtle{
+	public MyTurtle() {
+		super();
+	}
+
 	public MyTurtle(int x, int y, int angle) {
 		super(x, y, angle);
 	}
