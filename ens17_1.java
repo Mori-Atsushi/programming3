@@ -13,6 +13,7 @@ public class ens17_1 {
 					System.out.print(s + " ");
 				}
 			}
+			buffout.close();
 			System.out.println("合計 " + sum);
 			for(int i = 0; i < x.length; i++)
 				System.out.print(x[i] + " ");
