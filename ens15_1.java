@@ -23,7 +23,7 @@ public class ens15_1 extends JPanel {
 		g.setColor(Color.green);
 		g.setFont(new Font("Hiragino Kaku Gothic ProN", Font.PLAIN, 18));
 		g.drawRect(20, 70, 30, 50);
-		g.drawString("長方形", 10, 140);			
+		g.drawString("長方形", 10, 140);
 	}
 	void drawOval(Graphics g) {
 		g.setColor(Color.blue);
